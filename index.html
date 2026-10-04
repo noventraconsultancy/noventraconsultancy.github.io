@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Noventra Consultancy | Study in Europe on a Small Budget</title>
+<meta name="description" content="Noventra Consultancy: honest guidance on European scholarships, affordable public universities and IELTS preparation. Your Dreams. Our Direction.">
+<link rel="icon" href="favicon.png">
+<link rel="apple-touch-icon" href="favicon.png">
+<meta property="og:title" content="Noventra Consultancy">
+<meta property="og:image" content="banner.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+/* Colors from the Noventra logo. Edit here to change the whole site. */
+:root{--ink:#0B2461;--blue:#143C99;--gold:#D9A520;--soft:#F3F6FC;--line:#DCE3F0;--text:#2A3550}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,system-ui,sans-serif;color:var(--text);line-height:1.65;font-size:16.5px;background:#fff}
+h1,h2,h3,.serif{font-family:"Playfair Display",Georgia,serif;color:var(--ink);line-height:1.15}
+a{color:inherit}
+.wrap{max-width:1100px;margin:0 auto;padding:0 22px}
+section{padding:78px 0}
+.alt{background:var(--soft)}
+.eye{text-transform:uppercase;letter-spacing:.18em;font-size:.76rem;font-weight:600;color:var(--gold);margin-bottom:10px}
+h2{font-size:clamp(1.8rem,4vw,2.5rem);margin-bottom:14px}
+.lead{max-width:64ch;margin-bottom:32px}
+.btn{display:inline-block;padding:13px 26px;border-radius:999px;font-weight:600;text-decoration:none;border:2px solid var(--ink);background:var(--ink);color:#fff;transition:.2s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(11,36,97,.2)}
+.btn.ghost{background:transparent;color:var(--ink)}
+.btn.gold{background:var(--gold);border-color:var(--gold);color:var(--ink)}
+.btn.sm{padding:9px 18px;font-size:.9rem}
+header{position:sticky;top:0;z-index:9;background:rgba(255,255,255,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-top:9px;padding-bottom:9px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none}
+.brand img{height:42px;width:42px;border-radius:10px}
+.brand span{font-family:"Playfair Display",serif;font-weight:800;color:var(--ink);font-size:1.3rem;letter-spacing:.06em;line-height:1}
+.brand small{display:block;font-family:Inter,sans-serif;font-size:.58rem;letter-spacing:.3em;font-weight:600;color:var(--gold);margin-top:3px}
+nav a{margin-left:20px;text-decoration:none;font-weight:500;font-size:.92rem}
+nav a:not(.btn):hover{color:var(--gold)}
+@media(max-width:860px){nav a:not(.btn){display:none}}
+.hero{padding:0 0 70px;background:linear-gradient(#fff,var(--soft))}
+.banner{width:100%;display:block;height:auto}
+.herocard{position:relative;margin:-64px auto 0;max-width:900px;background:#fff;border-radius:20px;border-top:5px solid var(--gold);box-shadow:0 24px 60px rgba(11,36,97,.18);padding:44px 40px;text-align:center}
+@media(max-width:700px){.herocard{margin-top:-26px;padding:30px 20px}}
+h1{font-size:clamp(2rem,5.2vw,3.3rem);font-weight:800}
+h1 em{font-style:italic;color:var(--blue);background:linear-gradient(transparent 68%,rgba(217,165,32,.45) 68%)}
+.herocard p.sub{max-width:56ch;margin:18px auto 26px;font-size:1.08rem}
+.row{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
+.stats{background:var(--ink);color:#fff;padding:34px 0}
+.stats .wrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:20px;text-align:center}
+.stats b{display:block;font-family:"Playfair Display",serif;font-size:2rem;color:var(--gold)}
+.stats span{font-size:.9rem;opacity:.9}
+.grid{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:26px;transition:.2s}
+.card:hover{transform:translateY(-4px);box-shadow:0 14px 32px rgba(11,36,97,.1)}
+.card h3{font-size:1.25rem;margin-bottom:8px}
+.prod{display:flex;flex-direction:column;gap:6px}
+.prod .btn{margin-top:auto;align-self:flex-start}
+.price{font-family:"Playfair Display",serif;font-weight:700;font-size:1.5rem;color:var(--blue);margin:8px 0 12px}
+.feat{border:2px solid var(--gold);background:linear-gradient(#fff,#FFFBEF)}
+.steps{counter-reset:s;list-style:none;padding:0;display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.steps li{counter-increment:s;background:#fff;border-radius:16px;padding:26px;border:1px solid var(--line)}
+.steps li:before{content:"0" counter(s);font-family:"Playfair Display",serif;font-size:2.3rem;font-weight:800;color:var(--gold);display:block;margin-bottom:4px}
+.svcs{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));margin-bottom:34px}
+.svc{padding:18px 20px;border-left:4px solid var(--gold);background:#fff;border-radius:0 12px 12px 0;font-weight:600;color:var(--ink)}
+.svc b{font-family:"Playfair Display",serif;color:var(--gold);margin-right:10px}
+.flags{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
+.tile{display:flex;flex-direction:column;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px 10px;text-decoration:none;font-weight:600;color:var(--ink);text-align:center;transition:.2s}
+.tile:hover{border-color:var(--gold);transform:translateY(-3px)}
+.flag{font-size:2.7rem;line-height:1;font-family:"Segoe UI Emoji","Apple Color Emoji","Noto Color Emoji",sans-serif}
+.note{font-size:.9rem;color:#5b6783;margin-top:18px}
+.cta{background:linear-gradient(120deg,var(--ink),var(--blue));color:#fff;text-align:center;padding:70px 0}
+.cta h2{color:#fff}.cta p{max-width:56ch;margin:0 auto 26px;opacity:.92}
+.mission{background:var(--ink);color:#e6ecfa}
+.mission h2{color:#fff}.mission p{max-width:72ch;font-size:1.08rem;margin-bottom:14px}
+.founder{display:grid;gap:44px;grid-template-columns:300px 1fr;align-items:center}
+@media(max-width:760px){.founder{grid-template-columns:1fr}}
+.pic{position:relative}
+.pic:before{content:"";position:absolute;inset:16px -16px -16px 16px;border:3px solid var(--gold);border-radius:18px}
+.pic img{position:relative;width:100%;aspect-ratio:3/4;object-fit:cover;object-position:top;border-radius:18px;display:block}
+.quote p{margin-bottom:12px}
+.sig{font-family:"Playfair Display",serif;font-weight:700;color:var(--ink);font-size:1.15rem}
+.legal h3{font-size:1.05rem;margin:16px 0 4px}
+footer{background:#07173F;color:#c9d4ee;padding:56px 0 100px}
+footer a{color:#fff;text-decoration:none}footer a:hover{color:var(--gold)}
+footer h4{color:var(--gold);font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;margin-bottom:10px}
+.flogo{width:120px;border-radius:14px;margin-bottom:12px}
+.fine{border-top:1px solid rgba(255,255,255,.15);margin-top:30px;padding-top:18px;font-size:.85rem;opacity:.85}
+.fab{position:fixed;right:16px;bottom:16px;z-index:9;background:var(--gold);color:var(--ink);font-weight:700;text-decoration:none;padding:13px 20px;border-radius:999px;box-shadow:0 6px 18px rgba(0,0,0,.28)}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<a class="brand" href="#top"><img src="favicon.png" alt=""><span>NOVENTRA<small>CONSULTANCY</small></span></a>
+<nav><a href="#scholarships">Scholarships</a><a href="#countries">Countries</a><a href="#ielts">IELTS</a><a href="#services">Services</a><a href="#about">About</a><a class="btn sm gold" href="https://wa.me/923708381189?text=Hi%20Noventra%2C%20I%20want%20to%20book%20a%20free%20consultation.">Free consultation</a></nav>
+</div></header>
+<main id="top">
+<section class="hero">
+<img class="banner" src="banner.jpg" width="1800" height="670" alt="Noventra Consultancy. Your Dreams. Our Direction.">
+<div class="wrap"><div class="herocard">
+<p class="eye">Study abroad guidance, fully online</p>
+<h1>Study in Europe on a <em>small budget,</em> with guidance you can trust.</h1>
+<p class="sub">Noventra guides you through scholarships, affordable public universities and IELTS preparation, so you can apply with confidence and keep your costs low.</p>
+<div class="row"><a class="btn" href="https://forms.gle/o24CmH8H37z6ZtMg9">Take the free English level check</a><a class="btn ghost" href="https://wa.me/923708381189?text=Hi%20Noventra%2C%20I%20want%20to%20book%20a%20free%20consultation.">Book a free 30-minute consultation</a></div>
+</div></div>
+</section>
+<div class="stats"><div class="wrap">
+<div><b>16</b><span>Schengen countries covered</span></div>
+<div><b>5 min</b><span>Free English level check</span></div>
+<div><b>30 min</b><span>Free consultation</span></div>
+<div><b>100%</b><span>Online, from your phone</span></div>
+</div></div>
+<section id="how"><div class="wrap"><p class="eye">The journey</p><h2>How it works</h2>
+<ol class="steps">
+<li>Take the free 5-minute English level check.</li>
+<li>Chat with us on WhatsApp and book your free 30-minute consultation.</li>
+<li>Choose to be guided step by step, or to have us handle your application.</li>
+<li>Apply, track deadlines and prepare for your visa.</li>
+</ol></div></section>
+<section class="alt" id="scholarships"><div class="wrap"><p class="eye">Funding</p><h2>Scholarships we guide you on</h2><p class="lead">Each scholarship has its own eligibility and deadlines. Always confirm the latest details on the official website before applying.</p>
+<div class="grid">
+<div class="card"><h3>Stipendium Hungaricum</h3><p>Hungary's government scholarship, offered in partnership with HEC Pakistan.</p><p class="note"><a href="https://stipendiumhungaricum.hu">Official website</a></p></div>
+<div class="card"><h3>Italy Regional Scholarships</h3><p>Funding offered through Italy's regional bodies. Terms differ by region and university.</p></div>
+<div class="card"><h3>DAAD (Germany)</h3><p>German scholarships for Master's study.</p><p class="note"><a href="https://www.daad.de/en/">Official website</a></p></div>
+</div></div></section>
+<section id="countries"><div class="wrap"><p class="eye">Destinations</p><h2>Study in Schengen countries</h2><p class="lead">We guide you on affordable public universities across these countries. Fees, requirements and scholarships differ for each one, so tap a country to ask us about it on WhatsApp.</p>
+<div class="flags"><a class="tile" href="https://wa.me/923708381189?text=Hi%20Noventra%2C%20I%20want%20to%20know%20about%20studying%20in%20Germany."><span class="flag" aria-hidden="true">🇩🇪</span>Germany</a><a class="tile" href="https://wa.me/923708381189?text=Hi%20Noventra%2C%20I%20want%20to%20know%20about%20studying%20in%20Hungary."><span class="flag" aria-hidden="true">🇭🇺</span>Hungary</a><a class="tile" href="https://wa.me/923708381189?text=Hi%20Noventra%2C%20I%20want%20to%20know%20about%20studying%20in%20Italy."><span class="flag" aria-hidden="true">🇮🇹</span>Italy</a><a class="tile" href="https://wa.me/923708381189?text=Hi%20Noventra%2C%20I%20want%20to%20know%20about%20studying%20in%20Poland."><span class="flag" aria-hidden="true">🇵🇱</span>Poland</a><a class="tile" href="https://wa.me/923708381189?text=Hi%20Noventra%2C%20I%20want%20to%20know%20about%20studying%20in%20Czech%20Republic."><span class="flag" aria-hidden="true">🇨🇿</span>Czech Republic</a><a class="tile" href="https://wa.me/923708381189?text=Hi%20Noventra%2C%20I%20want%20to%20know%20about%20studying%20in%20Austria."><span class="flag" aria-hidden="true">🇦🇹</span>Austria</a><a class="tile" href="https://wa.me/923708381189?text=Hi%20Noventra%2C%20I%20want%20to%20know%20about%20studying%20in%20France."><span class="flag" aria-hidden="true">🇫🇷</span>France</a><a class="tile" href="https://wa.me/923708381189?text=Hi%20Noventra%2C%20I%20want%20to%20know%20about%20studying%20in%20Spain."><span class="flag" aria-hidden="true">🇪🇸</span>Spain</a><a class="tile" href="https://wa.me/923708381189?text=Hi%20Noventra%2C%20I%20want%20to%20know%20about%20studying%20in%20Portugal."><span class="flag" aria-hidden="true">🇵🇹</span>Portugal</a><a class="tile" href="https://wa.me/923708381189?text=Hi%20Noventra%2C%20I%20want%20to%20know%20about%20studying%20in%20Finland."><span class="flag" aria-hidden="true">🇫🇮</span>Finland</a><a class="tile" href="https://wa.me/923708381189?text=Hi%20Noventra%2C%20I%20want%20to%20know%20about%20studying%20in%20Netherlands."><span class="flag" aria-hidden="true">🇳🇱</span>Netherlands</a><a class="tile" href="https://wa.me/923708381189?text=Hi%20Noventra%2C%20I%20want%20to%20know%20about%20studying%20in%20Belgium."><span class="flag" aria-hidden="true">🇧🇪</span>Belgium</a><a class="tile" href="https://wa.me/923708381189?text=Hi%20Noventra%2C%20I%20want%20to%20know%20about%20studying%20in%20Lithuania."><span class="flag" aria-hidden="true">🇱🇹</span>Lithuania</a><a class="tile" href="https://wa.me/923708381189?text=Hi%20Noventra%2C%20I%20want%20to%20know%20about%20studying%20in%20Latvia."><span class="flag" aria-hidden="true">🇱🇻</span>Latvia</a><a class="tile" href="https://wa.me/923708381189?text=Hi%20Noventra%2C%20I%20want%20to%20know%20about%20studying%20in%20Estonia."><span class="flag" aria-hidden="true">🇪🇪</span>Estonia</a><a class="tile" href="https://wa.me/923708381189?text=Hi%20Noventra%2C%20I%20want%20to%20know%20about%20studying%20in%20Slovakia."><span class="flag" aria-hidden="true">🇸🇰</span>Slovakia</a></div>
+<p class="note">Bachelor's and Master's programs. Please verify fees and requirements on official university websites.</p></div></section>
+<section class="alt" id="ielts"><div class="wrap"><p class="eye">IELTS Academic</p><h2>IELTS preparation materials</h2><p class="lead">Practice material built to take you from your current level upward. Tap Enquire Now to chat with us on WhatsApp; payment details and delivery are shared there.</p>
+<div class="grid"><div class="card prod"><h3>Writing Pack</h3><p>30 Task 1 and Task 2 practice sets with sample 8.0 band answers, ordered from easier to harder so your writing improves step by step.</p><div class="price">PKR 1,500</div><a class="btn gold" href="https://wa.me/923708381189?text=Hi%20Noventra%2C%20I%27m%20interested%20in%20the%20IELTS%20Writing%20Pack.%20Can%20you%20share%20the%20details%3F">Enquire Now</a></div><div class="card prod"><h3>Speaking Pack</h3><p>30 speaking mocks with a clear practice plan and useful phrases.</p><div class="price">PKR 1,000</div><a class="btn gold" href="https://wa.me/923708381189?text=Hi%20Noventra%2C%20I%27m%20interested%20in%20the%20IELTS%20Speaking%20Pack.%20Can%20you%20share%20the%20details%3F">Enquire Now</a></div><div class="card prod"><h3>Reading Pack</h3><p>40 reading mocks from easy to hard, with time management and True/False/Not Given strategies.</p><div class="price">PKR 2,000</div><a class="btn gold" href="https://wa.me/923708381189?text=Hi%20Noventra%2C%20I%27m%20interested%20in%20the%20IELTS%20Reading%20Pack.%20Can%20you%20share%20the%20details%3F">Enquire Now</a></div><div class="card prod"><h3>4-Week and 8-Week Study Plans</h3><p>Day-by-day schedules for different starting levels, with progress trackers and band checking.</p><div class="price">PKR 1,000 to 1,500</div><a class="btn gold" href="https://wa.me/923708381189?text=Hi%20Noventra%2C%20I%27m%20interested%20in%20the%20IELTS%20Study%20Plans.%20Can%20you%20share%20the%20details%3F">Enquire Now</a></div><div class="card prod feat"><h3>Complete Bundle</h3><p>Writing, Speaking and Reading packs, plus a 20-day plan with speaking Zoom mocks and proper checking.</p><div class="price">PKR 5,000</div><a class="btn gold" href="https://wa.me/923708381189?text=Hi%20Noventra%2C%20I%27m%20interested%20in%20the%20IELTS%20Complete%20Bundle.%20Can%20you%20share%20the%20details%3F">Enquire Now</a></div></div>
+<p class="note">Not sure where you stand? The <a href="https://forms.gle/o24CmH8H37z6ZtMg9">free level check</a> takes about 5 minutes and estimates your English level. It is not an official IELTS score.</p></div></section>
+<section id="services"><div class="wrap"><p class="eye">What we offer</p><h2>Services</h2><p class="lead">Choose how involved you want us to be.</p>
+<div class="svcs"><div class="svc"><b>01</b>Scholarship guidance</div><div class="svc"><b>02</b>University selection</div><div class="svc"><b>03</b>Application support</div><div class="svc"><b>04</b>SOP and CV review</div><div class="svc"><b>05</b>Visa guidance</div><div class="svc"><b>06</b>IELTS guidance</div></div>
+<div class="grid">
+<div class="card prod"><h3>Guide Me</h3><p>You apply yourself, and we guide you through every step: shortlisting, scholarships, SOP and CV review, documents and visa.</p><a class="btn gold" href="https://wa.me/923708381189?text=Hi%20Noventra%2C%20I%27m%20interested%20in%20the%20Guide%20Me%20plan.%20Can%20you%20share%20the%20details%3F">Enquire Now</a></div>
+<div class="card prod"><h3>Apply For Me</h3><p>We handle the application work on your behalf, and keep you updated at each stage.</p><a class="btn gold" href="https://wa.me/923708381189?text=Hi%20Noventra%2C%20I%27m%20interested%20in%20the%20Apply%20For%20Me%20plan.%20Can%20you%20share%20the%20details%3F">Enquire Now</a></div>
+</div>
+<p class="note">Pricing depends on your profile and is shared after the free consultation. Noventra does not guarantee admission, scholarships or visas. Application, test and visa fees are paid separately to the relevant bodies.</p></div></section>
+<section class="cta"><div class="wrap"><h2>Not sure where to start?</h2><p>Take the free level check, then chat with us on WhatsApp. We will help you plan your next step.</p>
+<div class="row"><a class="btn gold" href="https://forms.gle/o24CmH8H37z6ZtMg9">Start the free level check</a><a class="btn ghost" style="color:#fff;border-color:#fff" href="https://wa.me/923708381189?text=Hi%20Noventra%2C%20I%20want%20to%20book%20a%20free%20consultation.">Chat on WhatsApp</a></div></div></section>
+<section class="mission" id="about"><div class="wrap"><p class="eye">Our mission</p><h2>Affordable study abroad, made simple</h2>
+<p>At Noventra, our mission is to make studying abroad accessible and affordable for every student, especially those with limited budgets. We aim to help students secure international university admissions through their own efforts, without relying on expensive agents or unnecessary consultancy fees. Through honest guidance, scholarship opportunities, affordable university options, and IELTS preparation, we empower students to navigate the admission process independently, make informed decisions, and turn their dreams into reality.</p>
+<p>We also offer a hands-on Apply For Me service for students who prefer it.</p></div></section>
+<section><div class="wrap founder">
+<div class="pic"><img src="shafay.jpg" alt="Muhammad Shafay, founder of Noventra" onerror="this.style.visibility='hidden'"></div>
+<div class="quote"><p class="eye">Founder</p><h2>A Message from the Founder</h2>
+<p><strong>Welcome to Noventra!</strong></p>
+<p>I'm Muhammad Shafay, founder of Noventra. My own journey to studying abroad came with challenges, misleading guidance, and a gap year. But it taught me one important lesson: the right guidance can change everything.</p>
+<p>I founded Noventra to help students access affordable international education, discover scholarships, navigate university admissions, and prepare for IELTS without unnecessary complications.</p>
+<p>My vision is simple: to ensure that no student has to struggle with a lack of guidance the way I did.</p>
+<p>Your Dreams. Our Direction.</p>
+<p class="sig">Muhammad Shafay<br>Founder, Noventra</p></div>
+</div></section>
+<section class="alt legal" id="privacy"><div class="wrap"><p class="eye">Legal</p><h2>Privacy and terms</h2>
+<h3>What we collect</h3><p>When you take the free level check or message us on WhatsApp, we receive your name, WhatsApp number, country of interest and quiz answers.</p>
+<h3>How we use it</h3><p>We use it to share your result and feedback, and to contact you on WhatsApp about our services. We do not sell your personal information. To have your details deleted, email consultancy.noventra@gmail.com.</p>
+<h3>Our services</h3><p>Noventra provides guidance and study materials. We do not guarantee admission, scholarships or visas. Application, test and visa fees are paid separately to the relevant bodies. The level check is an estimate and not an official IELTS score. IELTS materials are for your personal use only and may not be shared or resold.</p></div></section>
+</main>
+<footer><div class="wrap">
+<div class="grid">
+<div><img class="flogo" src="logo.png" alt="Noventra Consultancy"><p>Your Dreams. Our Direction.</p></div>
+<div><h4>Explore</h4><p><a href="#scholarships">Scholarships</a><br><a href="#countries">Countries</a><br><a href="#ielts">IELTS materials</a><br><a href="#services">Services</a><br><a href="#privacy">Privacy and terms</a></p></div>
+<div><h4>Contact</h4><p><a href="https://wa.me/923708381189?text=Hi%20Noventra%2C%20I%20want%20to%20book%20a%20free%20consultation.">WhatsApp: +92 370 8381189</a><br><a href="mailto:consultancy.noventra@gmail.com">consultancy.noventra@gmail.com</a></p></div>
+<div><h4>Follow</h4><p><a href="https://www.instagram.com/noventra.consultancy">Instagram</a><br><a href="https://www.facebook.com/share/1E3MG2Hus4/">Facebook</a><br><a href="https://www.tiktok.com/@noventra.consultancy">TikTok</a></p></div>
+</div>
+<p class="fine">Noventra is an independent consultancy and is not affiliated with any university or scholarship body. We do not guarantee admission, scholarships or visas.</p>
+</div></footer>
+<a class="fab" href="https://wa.me/923708381189?text=Hi%20Noventra%2C%20I%20want%20to%20book%20a%20free%20consultation.">Chat on WhatsApp</a>
+</body>
+</html>
