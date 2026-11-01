@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://noventraconsultancy.github.io/sitemap.xml
